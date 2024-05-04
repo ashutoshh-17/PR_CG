@@ -124,4 +124,16 @@ glutMainLoop();
 return 0;
 }
 }
+/*Output:
+Enter No of edges 
+3
+ Enter3 point of polygon 
+Enter 0 Point 10 20
+Enter 1 Point 90 20
+Enter 2 Point 40 80
 
+	In Scaling whole screen is 1st Qudrant 
+	 Enter sx, sy 
+2 5
+
+*/
