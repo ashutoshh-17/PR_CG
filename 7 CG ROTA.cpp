@@ -94,3 +94,17 @@ glutMainLoop();
 return 0;
 }
 }
+
+/*Output-
+ 	 Rotation about arbitrary point
+Enter No of edges 
+3
+ Enter3 point of polygon 
+Enter 0 Point 10 20
+Enter 1 Point 200 20
+Enter 2 Point 100 200
+
+ Enter Ar point x , y 10 45
+
+ Enter thetha 45
+*/
