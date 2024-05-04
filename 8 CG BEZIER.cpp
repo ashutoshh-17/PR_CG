@@ -58,3 +58,14 @@ glutDisplayFunc(Algorithm);
 glutMainLoop();
 return 0;
 }
+
+/*Output -
+ 	 Enter The Four Points x space y 
+ 	 Enter x and y for 0 = 320 420
+
+ 	 Enter x and y for 1 = 520 270       
+
+ 	 Enter x and y for 2 = 520 170
+
+ 	 Enter x and y for 3 = 320 70
+*/
