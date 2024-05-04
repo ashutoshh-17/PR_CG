@@ -22,7 +22,7 @@ gluOrtho2D(0,640,0,480);
 glClear(GL_COLOR_BUFFER_BIT);
 }
 
-void rotaion(){
+void rotation(){
 int cx, cy;
 cout<<"\n Enter Ar point x , y ";
 cin >> cx >> cy;
@@ -48,7 +48,6 @@ glFlush();
 }
 
 void Draw(){
-if(ch==2 || ch==3 || ch==4){
 glColor3f(1.0,0,0);
 glBegin(GL_LINES);
 glVertex2i(0,240);
@@ -68,9 +67,9 @@ glVertex2i(xpoint[i],ypoint[i]);
 glEnd();
 glFlush();
 }
-}
+
 int main(int argc, char** argv){
-cout<<"\n \t Rotation about arbitrary point";
+cout<<"\n \t Rotation about arbitrary point\n";
 {
 cout<<"Enter No of edges \n";
 cin>> edge;
@@ -90,6 +89,7 @@ glutInitWindowPosition(200,200);
 glutCreateWindow("2D");
 init();
 glutDisplayFunc(Draw);
+rotation();
 glutMainLoop();
 return 0;
 }
