@@ -49,7 +49,7 @@ k_curve(x,y,len,angle,it);
 int main(int argc, char** argv){
 cout<<"\n Enter Starting Point x space y ";
 cin>>x>>y;
-cout <<"\n Lenght of line and space angle of line";
+cout <<"\n Length of line and space angle of line";
 cin>>len>>angle;
 cout<<"\n No. of iteration ";
 cin>>it;
@@ -57,9 +57,18 @@ glutInit(&argc, argv);
 glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
 glutInitWindowSize(640,480);
 glutInitWindowPosition(200,200);
-glutCreateWindow("Koch");
+glutCreateWindow("Koch Curve");
 init();
 glutDisplayFunc(Algorithm);
 glutMainLoop();
 return 0;
 }
+
+
+/*Output -
+ Enter Starting Point x space y 160 110
+
+ Lenght of line and space angle of line410 55
+
+ No. of iteration 3
+*/
