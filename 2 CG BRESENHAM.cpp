@@ -110,6 +110,7 @@ glFlush();
 }
 void display()
 {
+B_Line(0,240,640,240,1);
 B_Line(320,0,320,640,1);
 glFlush();
 }
@@ -170,4 +171,3 @@ glutMouseFunc(mymouse);
 glutMainLoop();
 return 0;
 }
-
