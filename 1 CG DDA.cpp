@@ -75,6 +75,7 @@ glFlush();
 void display()
 {
 DDA_LINE(0,240,640,240,1);
+DDA_LINE(320,0,320,640,1);
 glFlush();
 }
 void mymouse(int b,int s, int x, int y)
